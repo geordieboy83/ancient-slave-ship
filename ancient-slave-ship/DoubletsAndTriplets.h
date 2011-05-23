@@ -1,3 +1,4 @@
+#pragma once
 
 typedef union {
 	double xy[2];

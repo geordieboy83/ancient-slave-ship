@@ -19,6 +19,12 @@
     <Filter Include="Audio">
       <UniqueIdentifier>{08fbea32-b8c8-473e-bd69-02f6820cd008}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Initialiser">
+      <UniqueIdentifier>{1d3cfa8f-b1d2-420b-944a-8e073ea262be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{4408f9b4-5232-4684-9c71-7c3a8797d8ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GUI\GUI.Button.cpp">
@@ -66,6 +72,21 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Initialiser.cpp">
+      <Filter>Initialiser</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GUI\GUI.Button.h">
@@ -109,6 +130,24 @@
     </ClInclude>
     <ClInclude Include="GUI\SoundManager.h">
       <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Initialiser.h">
+      <Filter>Initialiser</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubletsAndTriplets.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Graphics</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

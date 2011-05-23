@@ -78,6 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileBuffer.cpp" />
     <ClCompile Include="GUI\GUI.Button.cpp" />
     <ClCompile Include="GUI\GUI.ButtonArray.cpp" />
     <ClCompile Include="GUI\GUI.Console.cpp" />
@@ -97,10 +98,12 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Material.cpp" />
     <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DoubletsAndTriplets.h" />
+    <ClInclude Include="FileBuffer.h" />
     <ClInclude Include="GUI\GUI.Button.h" />
     <ClInclude Include="GUI\GUI.ButtonArray.h" />
     <ClInclude Include="GUI\GUI.Console.h" />
@@ -119,6 +122,7 @@
     <ClInclude Include="Light.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="Model.h" />
+    <ClInclude Include="Shape.h" />
     <ClInclude Include="Texture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

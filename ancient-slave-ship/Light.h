@@ -6,3 +6,8 @@ using namespace std;
 #include <GL\glfw.h>
 #include <vector>
 #include "DoubletsAndTriplets.h"
+
+class Light {
+	public:
+	protected:
+};

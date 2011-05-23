@@ -5,7 +5,7 @@ bool Video;
 
 void InitialiseAudio()
 {
-	cout << "Initialising Audio...\t";
+	cout << "Initialising Audio..." << TAB;//\t";
 	Audio=alutInit(NULL,NULL);
 	if(Audio) cout << "OK" << endl;
 	else cout << "FAIL" << endl;	
@@ -13,11 +13,11 @@ void InitialiseAudio()
 
 void InitialiseVideo()
 {
-	cout << "Initialising GLFW...\t";
+	cout << "Initialising GLFW..." << TAB;//\t";
 	Video=glfwInit();
 	if(Video) cout << "OK" << endl;
 	else cout << "FAIL" << endl;	
-	cout << "Initialising GLEW...\t";
+	cout << "Initialising GLEW..."<< TAB;//\t";
 	Video=glewInit();
 	if(Video) cout << "OK" << endl;
 	else cout << "FAIL" << endl;	

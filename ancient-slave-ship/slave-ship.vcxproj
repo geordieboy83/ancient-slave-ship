@@ -92,9 +92,15 @@
     <ClCompile Include="GUI\GUI.Slider.cpp" />
     <ClCompile Include="GUI\GUI.TextEffect.cpp" />
     <ClCompile Include="GUI\SoundManager.cpp" />
+    <ClCompile Include="Initialiser.cpp" />
+    <ClCompile Include="Light.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DoubletsAndTriplets.h" />
     <ClInclude Include="GUI\GUI.Button.h" />
     <ClInclude Include="GUI\GUI.ButtonArray.h" />
     <ClInclude Include="GUI\GUI.Console.h" />
@@ -109,6 +115,11 @@
     <ClInclude Include="GUI\GUI.Slider.h" />
     <ClInclude Include="GUI\GUI.TextEffect.h" />
     <ClInclude Include="GUI\SoundManager.h" />
+    <ClInclude Include="Initialiser.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Texture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
